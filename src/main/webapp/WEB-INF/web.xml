@@ -6,10 +6,18 @@
     
     <servlet>
         <servlet-name>student</servlet-name>
-        <servlet-class>com.company.servlets.HelloServlet</servlet-class>
+        <servlet-class>com.company.servlets.StudentServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>student</servlet-name>
         <url-pattern>/student_all</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CourseServlet</servlet-name>
+        <servlet-class>com.company.servlets.CourseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CourseServlet</servlet-name>
+        <url-pattern>/course_all</url-pattern>
     </servlet-mapping>
 </web-app>

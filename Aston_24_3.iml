@@ -20,7 +20,6 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
@@ -29,6 +28,8 @@
     </content>
     <orderEntry type="jdk" jdkName="17 (3)" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="java" level="project" />
+    <orderEntry type="library" name="mysql-connector-j-8.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
@@ -36,16 +37,17 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
-    <orderEntry type="module-library" scope="TEST">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../mysql-connector-j-8.0.32/mysql-connector-j-8.0.32.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="java" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-j-8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jasper:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-servlet-api:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jsp-api:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-el-api:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jdt:ecj:3.32.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jasper-el:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-api:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util-scan:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:10.1.7" level="project" />
+    <orderEntry type="library" name="Maven: com.mysql:mysql-connector-j:8.0.32" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.21.9" level="project" />
   </component>
 </module>

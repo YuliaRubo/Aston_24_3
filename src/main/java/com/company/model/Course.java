@@ -8,6 +8,14 @@ public class Course {
     private  String nameCourse;
     List<Student> listStudent;
 
+    public Course(int id, String nameCourse) {
+        this.id = id;
+        this.nameCourse = nameCourse;
+    }
+
+    public Course(String name_course) {
+    }
+
     public Course(int id, String nameCourse, List<Student> listStudent) {
         this.id = id;
         this.nameCourse = nameCourse;

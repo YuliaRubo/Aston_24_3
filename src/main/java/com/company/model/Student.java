@@ -6,9 +6,17 @@ public class Student {
     private String name;
     private String surname;
     private int age;
-    private Gender gender;
+    private String gender;
 
-    public Student(String name, String surname, int age, Gender gender) {
+    public Student(int id, String name, String surname, int age, String gender) {
+        this.id = id;
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.gender = gender;
+    }
+
+    public Student(String name, String surname, int age, String gender) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -42,21 +50,30 @@ public class Student {
         this.age = age;
     }
 
-    public Gender getGender() {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(Gender gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
-                ", gender=" + gender +
+                ", gender='" + gender + '\'' +
                 '}';
     }
 }

@@ -13,6 +13,20 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Aston_24_3" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-servlet-api:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jsp-api:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-el-api:10.1.7" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.32.0" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-jasper-el:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-api:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util-scan:10.1.7" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-util:10.1.7" />
+          <element id="library" level="project" name="Maven: com.mysql:mysql-connector-j:8.0.32" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.21.9" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/Aston_24_3-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
